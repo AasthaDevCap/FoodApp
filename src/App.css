@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url(/src/img/food.webp);
+}
+
+
+.head {
+  color: #fb5f21;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 180px 150px 0px 0px;
+  font-size: 48px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px 50px 0px 0px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li button {
+  display: block;
+  background-color: transparent;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: none;
+}
+
+li button:hover {
+  background-color: white;
+}
+
+.ui-li {
+  color: #fb5f21;
+  font-size: 20px;
+}
+
+.css-app {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 40px 0% 0%
+}
+.home-data{
+   color: #fb5f21;
+   font-size: 20px;
+   font-size:italic ;
+}
+.btn-cat{
+  margin: 40px 0px 0px 250px;
+    width: 100px;
+    height: 35px;
+    background-color:#ff692d;
+    /* border: 14px; */
+    border-color: white;
+    border-block-width: 2px;
+    border-radius: 7px;
+    color: white;
+}
