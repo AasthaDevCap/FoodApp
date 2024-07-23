@@ -65,3 +65,9 @@ li button:hover {
     border-radius: 7px;
     color: white;
 }
+.center {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+}

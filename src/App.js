@@ -11,10 +11,13 @@ import Main from './home/Main';
 import SignUpModal from './home/SignIn';
 import LogInModal from './home/LogIn';
 import Categoriesweb from './home/Categories';
+import { Provider } from 'react-redux';
+import store from './Store/store';
 
 function App() {
   return (
     <>
+    <Provider store={store}>
     <BrowserRouter>
     <Routes>    
       <Route path='/' element={<HomeDatapage/>}/>
@@ -29,7 +32,7 @@ function App() {
       <Route path='/categories' element={<Categoriesweb/>}></Route>
     </Routes>
     </BrowserRouter>
-  
+    </Provider>
     </>
   );
 }
